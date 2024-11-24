@@ -16,7 +16,6 @@ abstract class Styles {
   );
   static const textStyle20 = TextStyle(
     fontSize: 20,
-    fontFamily: kMarmeladFont,
     fontWeight: FontWeight.normal, //! regular
   );
   static const textStyle30 = TextStyle(
