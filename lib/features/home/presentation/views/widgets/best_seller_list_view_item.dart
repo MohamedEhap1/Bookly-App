@@ -61,19 +61,21 @@ class BookListViewItem extends StatelessWidget {
                   const SizedBox(
                     height: 3,
                   ),
-                  Padding(
-                    padding: const EdgeInsets.only(right: 30.0),
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [
-                        Text(
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    mainAxisSize: MainAxisSize.max,
+                    children: [
+                      Flexible(
+                        child: Text(
                           "19.99 €",
-                          style: Styles.textStyle20
-                              .copyWith(fontWeight: FontWeight.bold),
+                          style: Styles.textStyle14.copyWith(
+                            fontWeight: FontWeight.bold,
+                            overflow: TextOverflow.ellipsis,
+                          ),
                         ),
-                        const BookRating(),
-                      ],
-                    ),
+                      ),
+                      const Flexible(child: BookRating()),
+                    ],
                   ),
                 ],
               ),
