@@ -16,7 +16,10 @@ class BookDetailsSection extends StatelessWidget {
         Padding(
           padding: EdgeInsets.symmetric(
               horizontal: MediaQuery.sizeOf(context).width * 0.20),
-          child: const CustomBookImage(),
+          child: const CustomBookImage(
+            imageUrl:
+                'https://th.bing.com/th/id/OIP.pc2yV6xVRyi6PgecoOczPwHaEo?rs=1&pid=ImgDetMain',
+          ),
         ),
         const SizedBox(
           height: 42,
