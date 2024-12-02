@@ -12,7 +12,7 @@ class BooksButtonAction extends StatelessWidget {
         CustomButton(
           backgroundColor: Colors.white,
           color: Colors.black,
-          text: "19.99 €",
+          text: "Free",
           borderRadius: BorderRadius.only(
             topLeft: Radius.circular(12),
             bottomLeft: Radius.circular(12),
@@ -21,7 +21,7 @@ class BooksButtonAction extends StatelessWidget {
         CustomButton(
           backgroundColor: Color(0xffEF8262),
           color: Colors.white,
-          text: "Free preview",
+          text: "Preview",
           borderRadius: BorderRadius.only(
             topRight: Radius.circular(12),
             bottomRight: Radius.circular(12),
